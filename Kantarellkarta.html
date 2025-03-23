@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b871707da887f5e2efa1592ced19408 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9b871707da887f5e2efa1592ced19408" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9b871707da887f5e2efa1592ced19408 = L.map(
+                "map_9b871707da887f5e2efa1592ced19408",
+                {
+                    center: [59.3293, 18.0686],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fda3dedb02b78a4393ff6d9fd43a19b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fda3dedb02b78a4393ff6d9fd43a19b6.addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var marker_9e64a1dc707f9038416ed78d311734f2 = L.marker(
+                [59.33448674120276, 18.71296644355328],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_54619bfaa5e863112cb2df3ff990116c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6142757d0bca4a4018f8f35da14ed9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef333324e94bc91f9d7191daac6fdaaa = $(`<div id="html_ef333324e94bc91f9d7191daac6fdaaa" style="width: 100.0%; height: 100.0%;"><b>Fjällsvik, Värmdö</b><br>Lat: 59.33448674120276, Lon: 18.71296644355328<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_f6142757d0bca4a4018f8f35da14ed9d.setContent(html_ef333324e94bc91f9d7191daac6fdaaa);
+            
+        
+
+        marker_9e64a1dc707f9038416ed78d311734f2.bindPopup(popup_f6142757d0bca4a4018f8f35da14ed9d)
+        ;
+
+        
+    
+    
+                marker_9e64a1dc707f9038416ed78d311734f2.setIcon(icon_54619bfaa5e863112cb2df3ff990116c);
+            
+    
+            var marker_316b37dc6002f4959fe9f406c0179d49 = L.marker(
+                [59.37037439674164, 18.653733380850387],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_54050dd5e59e2ef9bf0c0a0916cf91e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ed087bad94bde2fc346711903f822b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c8f5e03d6a1d16039ed0a9874e9df94b = $(`<div id="html_c8f5e03d6a1d16039ed0a9874e9df94b" style="width: 100.0%; height: 100.0%;"><b>Dragvägen 4, Vindö</b><br>Lat: 59.37037439674164, Lon: 18.653733380850387<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_5ed087bad94bde2fc346711903f822b8.setContent(html_c8f5e03d6a1d16039ed0a9874e9df94b);
+            
+        
+
+        marker_316b37dc6002f4959fe9f406c0179d49.bindPopup(popup_5ed087bad94bde2fc346711903f822b8)
+        ;
+
+        
+    
+    
+                marker_316b37dc6002f4959fe9f406c0179d49.setIcon(icon_54050dd5e59e2ef9bf0c0a0916cf91e9);
+            
+    
+            var marker_2f6785ab368613a4103339904ad3f935 = L.marker(
+                [59.27553446446774, 18.420289622223237],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_37a0a97fcb1e0b7fe38844dd073a27bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfebdc9875d7976bdbc47e8ccee300fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c07090a106189c4f30bcca2bfce45e57 = $(`<div id="html_c07090a106189c4f30bcca2bfce45e57" style="width: 100.0%; height: 100.0%;"><b>Ingarö</b><br>Lat: 59.27553446446774, Lon: 18.420289622223237<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_bfebdc9875d7976bdbc47e8ccee300fb.setContent(html_c07090a106189c4f30bcca2bfce45e57);
+            
+        
+
+        marker_2f6785ab368613a4103339904ad3f935.bindPopup(popup_bfebdc9875d7976bdbc47e8ccee300fb)
+        ;
+
+        
+    
+    
+                marker_2f6785ab368613a4103339904ad3f935.setIcon(icon_37a0a97fcb1e0b7fe38844dd073a27bc);
+            
+    
+            var marker_6d2a8e81234ac2576255168a8acdb4ea = L.marker(
+                [59.279446048716146, 18.57531402885773],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_17d39d7c5b49ae8fc41b41ffc8d3273a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1dc69e1fa599dc787af8b10e9df5cdcb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ada308d84e5855d27b92c19d9f7d27cc = $(`<div id="html_ada308d84e5855d27b92c19d9f7d27cc" style="width: 100.0%; height: 100.0%;"><b>Vämfjärden V</b><br>Lat: 59.279446048716146, Lon: 18.57531402885773<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_1dc69e1fa599dc787af8b10e9df5cdcb.setContent(html_ada308d84e5855d27b92c19d9f7d27cc);
+            
+        
+
+        marker_6d2a8e81234ac2576255168a8acdb4ea.bindPopup(popup_1dc69e1fa599dc787af8b10e9df5cdcb)
+        ;
+
+        
+    
+    
+                marker_6d2a8e81234ac2576255168a8acdb4ea.setIcon(icon_17d39d7c5b49ae8fc41b41ffc8d3273a);
+            
+    
+            var marker_e82a9b0307b07bf8aa256b2fc4520545 = L.marker(
+                [59.31764121872071, 18.596103832196196],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_c292828cbb1f4a55e67f62801a497231 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9891bac4ba5bd406093409fdd8f9b348 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1cea7b56a6b8ffc5d6802e282188ad2 = $(`<div id="html_c1cea7b56a6b8ffc5d6802e282188ad2" style="width: 100.0%; height: 100.0%;"><b>Stickelsberg</b><br>Lat: 59.31764121872071, Lon: 18.596103832196196<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_9891bac4ba5bd406093409fdd8f9b348.setContent(html_c1cea7b56a6b8ffc5d6802e282188ad2);
+            
+        
+
+        marker_e82a9b0307b07bf8aa256b2fc4520545.bindPopup(popup_9891bac4ba5bd406093409fdd8f9b348)
+        ;
+
+        
+    
+    
+                marker_e82a9b0307b07bf8aa256b2fc4520545.setIcon(icon_c292828cbb1f4a55e67f62801a497231);
+            
+    
+            var marker_a342c347317c4888d20cb74d4df9d8e0 = L.marker(
+                [59.40154831735509, 18.66876332090172],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_b2ab966322c49855738a93274c018ef7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e68fee221b8be25f51562e453bb48c10 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8a4a1ec544d437d851a94c6292f8c59 = $(`<div id="html_e8a4a1ec544d437d851a94c6292f8c59" style="width: 100.0%; height: 100.0%;"><b>Hjälmö Västerholme</b><br>Lat: 59.40154831735509, Lon: 18.66876332090172<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_e68fee221b8be25f51562e453bb48c10.setContent(html_e8a4a1ec544d437d851a94c6292f8c59);
+            
+        
+
+        marker_a342c347317c4888d20cb74d4df9d8e0.bindPopup(popup_e68fee221b8be25f51562e453bb48c10)
+        ;
+
+        
+    
+    
+                marker_a342c347317c4888d20cb74d4df9d8e0.setIcon(icon_b2ab966322c49855738a93274c018ef7);
+            
+    
+            var marker_3bc4e6f593f6971ff2a1d0f5da32cb4f = L.marker(
+                [59.24990497431217, 18.463589754957194],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_11edd3db061a961c7fa202913c195d53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60a8f9566056402d9221d140b859f352 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b7c7cb58409ac5ddec45e583e55bbc42 = $(`<div id="html_b7c7cb58409ac5ddec45e583e55bbc42" style="width: 100.0%; height: 100.0%;"><b>Kullaskogen</b><br>Lat: 59.24990497431217, Lon: 18.463589754957194<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_60a8f9566056402d9221d140b859f352.setContent(html_b7c7cb58409ac5ddec45e583e55bbc42);
+            
+        
+
+        marker_3bc4e6f593f6971ff2a1d0f5da32cb4f.bindPopup(popup_60a8f9566056402d9221d140b859f352)
+        ;
+
+        
+    
+    
+                marker_3bc4e6f593f6971ff2a1d0f5da32cb4f.setIcon(icon_11edd3db061a961c7fa202913c195d53);
+            
+    
+            var marker_018286d931fc08db66abafcd5510f1be = L.marker(
+                [59.33288867348325, 18.382345895049838],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_da8d0176e82302ea4369bb282d809304 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_860ee2c4bdf3d9cffdb17062613aab10 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cff7edadf18b745697aad4db3879fbea = $(`<div id="html_cff7edadf18b745697aad4db3879fbea" style="width: 100.0%; height: 100.0%;"><b>W. Mörkdalen</b><br>Lat: 59.33288867348325, Lon: 18.382345895049838<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_860ee2c4bdf3d9cffdb17062613aab10.setContent(html_cff7edadf18b745697aad4db3879fbea);
+            
+        
+
+        marker_018286d931fc08db66abafcd5510f1be.bindPopup(popup_860ee2c4bdf3d9cffdb17062613aab10)
+        ;
+
+        
+    
+    
+                marker_018286d931fc08db66abafcd5510f1be.setIcon(icon_da8d0176e82302ea4369bb282d809304);
+            
+    
+            var marker_1aa756388cabfd5bd2bb2f2d82e3d381 = L.marker(
+                [59.31315041277665, 18.414067267608694],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_c945c8416ae9bea45ee45c5900d8a73b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a3dac479bc92ba7608ed86081d4e4ee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d95b14ea8938ec8d586f4e5501231b2 = $(`<div id="html_0d95b14ea8938ec8d586f4e5501231b2" style="width: 100.0%; height: 100.0%;"><b>Skog vid Vitmossevägen</b><br>Lat: 59.31315041277665, Lon: 18.414067267608694<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_9a3dac479bc92ba7608ed86081d4e4ee.setContent(html_0d95b14ea8938ec8d586f4e5501231b2);
+            
+        
+
+        marker_1aa756388cabfd5bd2bb2f2d82e3d381.bindPopup(popup_9a3dac479bc92ba7608ed86081d4e4ee)
+        ;
+
+        
+    
+    
+                marker_1aa756388cabfd5bd2bb2f2d82e3d381.setIcon(icon_c945c8416ae9bea45ee45c5900d8a73b);
+            
+    
+            var marker_5f36c4ae7fc9923290496354e0695adc = L.marker(
+                [59.24990497431217, 18.463589754957194],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_1ca2f180f8ce41a250523b2b4b4c3a3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfeafe84a77eb26e21683a90fef60b82 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d36ee7bc8c3285f105324ebd874a1c7b = $(`<div id="html_d36ee7bc8c3285f105324ebd874a1c7b" style="width: 100.0%; height: 100.0%;"><b>Kullaskogen</b><br>Lat: 59.24990497431217, Lon: 18.463589754957194<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_bfeafe84a77eb26e21683a90fef60b82.setContent(html_d36ee7bc8c3285f105324ebd874a1c7b);
+            
+        
+
+        marker_5f36c4ae7fc9923290496354e0695adc.bindPopup(popup_bfeafe84a77eb26e21683a90fef60b82)
+        ;
+
+        
+    
+    
+                marker_5f36c4ae7fc9923290496354e0695adc.setIcon(icon_1ca2f180f8ce41a250523b2b4b4c3a3b);
+            
+    
+            var marker_087adf1668d5cc465c47dfffb2032437 = L.marker(
+                [59.32292047888138, 18.68312261795298],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_b6f42546f9b769420762f83e898b03a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea44dd2cc3e2975aefd33068b4e2607c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f54203f0c08b4b3caea080af84c8a70 = $(`<div id="html_2f54203f0c08b4b3caea080af84c8a70" style="width: 100.0%; height: 100.0%;"><b>Högmalmarna</b><br>Lat: 59.32292047888138, Lon: 18.68312261795298<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_ea44dd2cc3e2975aefd33068b4e2607c.setContent(html_2f54203f0c08b4b3caea080af84c8a70);
+            
+        
+
+        marker_087adf1668d5cc465c47dfffb2032437.bindPopup(popup_ea44dd2cc3e2975aefd33068b4e2607c)
+        ;
+
+        
+    
+    
+                marker_087adf1668d5cc465c47dfffb2032437.setIcon(icon_b6f42546f9b769420762f83e898b03a4);
+            
+    
+            var marker_a009680e7541b6be38b1210779ce3487 = L.marker(
+                [59.32239807258503, 18.873603601573645],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_097acc84ca47d7fd81dd25fa7b35c809 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4cb4af398ee18dc32c6b39b42976e36 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3743c398f82e61ced43b37f41d0d894f = $(`<div id="html_3743c398f82e61ced43b37f41d0d894f" style="width: 100.0%; height: 100.0%;"><b>Nöttnäshöjden</b><br>Lat: 59.32239807258503, Lon: 18.873603601573645<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_c4cb4af398ee18dc32c6b39b42976e36.setContent(html_3743c398f82e61ced43b37f41d0d894f);
+            
+        
+
+        marker_a009680e7541b6be38b1210779ce3487.bindPopup(popup_c4cb4af398ee18dc32c6b39b42976e36)
+        ;
+
+        
+    
+    
+                marker_a009680e7541b6be38b1210779ce3487.setIcon(icon_097acc84ca47d7fd81dd25fa7b35c809);
+            
+    
+            var marker_2a674b41f41bad78666e9a2e13c3dd83 = L.marker(
+                [59.33574678084864, 18.899250202559607],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_e3c37bb858d50375984268dc2ae053b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57b0db07089be18df7b2d6df41722308 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2764dba525c9bd132b2fcebe4ca2d47d = $(`<div id="html_2764dba525c9bd132b2fcebe4ca2d47d" style="width: 100.0%; height: 100.0%;"><b>Källdal</b><br>Lat: 59.33574678084864, Lon: 18.899250202559607<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_57b0db07089be18df7b2d6df41722308.setContent(html_2764dba525c9bd132b2fcebe4ca2d47d);
+            
+        
+
+        marker_2a674b41f41bad78666e9a2e13c3dd83.bindPopup(popup_57b0db07089be18df7b2d6df41722308)
+        ;
+
+        
+    
+    
+                marker_2a674b41f41bad78666e9a2e13c3dd83.setIcon(icon_e3c37bb858d50375984268dc2ae053b8);
+            
+    
+            var marker_edc2b915c90561084bd1a4bd8cafb786 = L.marker(
+                [59.23016056213514, 18.560608540007838],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_c035e649b52b37fd0704dbcfb1b915fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aad1c4bb0012dac5ec75387cf317d22d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ec6cd984399a13eab1dae8a3d9de63e = $(`<div id="html_1ec6cd984399a13eab1dae8a3d9de63e" style="width: 100.0%; height: 100.0%;"><b>Björnö</b><br>Lat: 59.23016056213514, Lon: 18.560608540007838<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_aad1c4bb0012dac5ec75387cf317d22d.setContent(html_1ec6cd984399a13eab1dae8a3d9de63e);
+            
+        
+
+        marker_edc2b915c90561084bd1a4bd8cafb786.bindPopup(popup_aad1c4bb0012dac5ec75387cf317d22d)
+        ;
+
+        
+    
+    
+                marker_edc2b915c90561084bd1a4bd8cafb786.setIcon(icon_c035e649b52b37fd0704dbcfb1b915fb);
+            
+    
+            var marker_3c07c40ed3a7360380886794a5ad7533 = L.marker(
+                [59.2515333074747, 18.529372323018663],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_9667a71f4a53b308c6dc8d68405ed3e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab33045fed98f60bd0b4ab1c4c32a053 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d4eac54631483b9a3336b3f49e5b2062 = $(`<div id="html_d4eac54631483b9a3336b3f49e5b2062" style="width: 100.0%; height: 100.0%;"><b>Ingarö, Lugnet</b><br>Lat: 59.2515333074747, Lon: 18.529372323018663<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_ab33045fed98f60bd0b4ab1c4c32a053.setContent(html_d4eac54631483b9a3336b3f49e5b2062);
+            
+        
+
+        marker_3c07c40ed3a7360380886794a5ad7533.bindPopup(popup_ab33045fed98f60bd0b4ab1c4c32a053)
+        ;
+
+        
+    
+    
+                marker_3c07c40ed3a7360380886794a5ad7533.setIcon(icon_9667a71f4a53b308c6dc8d68405ed3e1);
+            
+    
+            var marker_83aea220c95b6e805e19d804f956d1aa = L.marker(
+                [59.35741622254094, 18.564049116606082],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_a3c18e95238227fe1e4b0c8ca3c47b50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0226bde7a5b5a371a99898b0e5e89a9c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c7b60a2e0e6af87c28a53b57d3c6606b = $(`<div id="html_c7b60a2e0e6af87c28a53b57d3c6606b" style="width: 100.0%; height: 100.0%;"><b>Storsved N om vägen Ängsvik-Boda</b><br>Lat: 59.35741622254094, Lon: 18.564049116606082<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_0226bde7a5b5a371a99898b0e5e89a9c.setContent(html_c7b60a2e0e6af87c28a53b57d3c6606b);
+            
+        
+
+        marker_83aea220c95b6e805e19d804f956d1aa.bindPopup(popup_0226bde7a5b5a371a99898b0e5e89a9c)
+        ;
+
+        
+    
+    
+                marker_83aea220c95b6e805e19d804f956d1aa.setIcon(icon_a3c18e95238227fe1e4b0c8ca3c47b50);
+            
+    
+            var marker_10db1ebb1f25e525c2c5f07fc14cdea8 = L.marker(
+                [59.32747331819609, 18.88158830237119],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_d3e7623de564591d842520e80275416d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_088af9de2f7a864e90adfbfaf58128fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e432232d7adbd1a31b5963cc475ce4cf = $(`<div id="html_e432232d7adbd1a31b5963cc475ce4cf" style="width: 100.0%; height: 100.0%;"><b>Gammeltomtträsket</b><br>Lat: 59.32747331819609, Lon: 18.88158830237119<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_088af9de2f7a864e90adfbfaf58128fb.setContent(html_e432232d7adbd1a31b5963cc475ce4cf);
+            
+        
+
+        marker_10db1ebb1f25e525c2c5f07fc14cdea8.bindPopup(popup_088af9de2f7a864e90adfbfaf58128fb)
+        ;
+
+        
+    
+    
+                marker_10db1ebb1f25e525c2c5f07fc14cdea8.setIcon(icon_d3e7623de564591d842520e80275416d);
+            
+    
+            var marker_d030fdbe2805b32c9e6a81ebd39ad289 = L.marker(
+                [59.25295287502663, 18.424535420304856],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_eae6fb03994892863add60f04f248faf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc2c56be4ea0ab4bc616aec6129d73b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2de182ff26d0fc64586740e4859ddf5f = $(`<div id="html_2de182ff26d0fc64586740e4859ddf5f" style="width: 100.0%; height: 100.0%;"><b>Johannesdal</b><br>Lat: 59.25295287502663, Lon: 18.424535420304856<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_cc2c56be4ea0ab4bc616aec6129d73b8.setContent(html_2de182ff26d0fc64586740e4859ddf5f);
+            
+        
+
+        marker_d030fdbe2805b32c9e6a81ebd39ad289.bindPopup(popup_cc2c56be4ea0ab4bc616aec6129d73b8)
+        ;
+
+        
+    
+    
+                marker_d030fdbe2805b32c9e6a81ebd39ad289.setIcon(icon_eae6fb03994892863add60f04f248faf);
+            
+    
+            var marker_f6170740dce1c07eda51bac9c238130d = L.marker(
+                [59.39309904096035, 18.471172707539164],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_1dcbbe4a2707d7e43f446deef987145f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20f0ef34eb06764b1a27ef47535c3931 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_443cf9e95f27a023e30ded7d332b1b3c = $(`<div id="html_443cf9e95f27a023e30ded7d332b1b3c" style="width: 100.0%; height: 100.0%;"><b>Skog ost Myttinge</b><br>Lat: 59.39309904096035, Lon: 18.471172707539164<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_20f0ef34eb06764b1a27ef47535c3931.setContent(html_443cf9e95f27a023e30ded7d332b1b3c);
+            
+        
+
+        marker_f6170740dce1c07eda51bac9c238130d.bindPopup(popup_20f0ef34eb06764b1a27ef47535c3931)
+        ;
+
+        
+    
+    
+                marker_f6170740dce1c07eda51bac9c238130d.setIcon(icon_1dcbbe4a2707d7e43f446deef987145f);
+            
+    
+            var marker_a57f44b4250f30d020c600f63fecc8bf = L.marker(
+                [59.32149626543304, 18.877018675723217],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_4f7c94e08137b90ec850afc2dd9da064 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afa2f91084a3135603f8e643962ee6ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_344ac5870e445b25fd3e978bd74b8abe = $(`<div id="html_344ac5870e445b25fd3e978bd74b8abe" style="width: 100.0%; height: 100.0%;"><b>strandbergen</b><br>Lat: 59.32149626543304, Lon: 18.877018675723217<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_afa2f91084a3135603f8e643962ee6ef.setContent(html_344ac5870e445b25fd3e978bd74b8abe);
+            
+        
+
+        marker_a57f44b4250f30d020c600f63fecc8bf.bindPopup(popup_afa2f91084a3135603f8e643962ee6ef)
+        ;
+
+        
+    
+    
+                marker_a57f44b4250f30d020c600f63fecc8bf.setIcon(icon_4f7c94e08137b90ec850afc2dd9da064);
+            
+    
+            var marker_f60abe70c231c7c2f769e3ebb297456b = L.marker(
+                [59.33606735527476, 18.90085311593956],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_66a97fc242a202f756e4e3a674bfbe8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ebbf1b0998367a0800592a1506bdaf4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a0a7fcf945bdd13c369b144b6c7e556 = $(`<div id="html_8a0a7fcf945bdd13c369b144b6c7e556" style="width: 100.0%; height: 100.0%;"><b>Täppan, Bergklobben</b><br>Lat: 59.33606735527476, Lon: 18.90085311593956<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_3ebbf1b0998367a0800592a1506bdaf4.setContent(html_8a0a7fcf945bdd13c369b144b6c7e556);
+            
+        
+
+        marker_f60abe70c231c7c2f769e3ebb297456b.bindPopup(popup_3ebbf1b0998367a0800592a1506bdaf4)
+        ;
+
+        
+    
+    
+                marker_f60abe70c231c7c2f769e3ebb297456b.setIcon(icon_66a97fc242a202f756e4e3a674bfbe8d);
+            
+    
+            var marker_1ace8096d3f562468bf29c813bf7c82e = L.marker(
+                [59.41066246164258, 18.56476377738817],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_4d61985445dc6d7425582ec3d189defe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84e6c530b7c0b3161cdd5c4d0fe12e95 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a2a81033f692b7ce92e0aa80dfbfff7 = $(`<div id="html_8a2a81033f692b7ce92e0aa80dfbfff7" style="width: 100.0%; height: 100.0%;"><b>Grinda</b><br>Lat: 59.41066246164258, Lon: 18.56476377738817<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_84e6c530b7c0b3161cdd5c4d0fe12e95.setContent(html_8a2a81033f692b7ce92e0aa80dfbfff7);
+            
+        
+
+        marker_1ace8096d3f562468bf29c813bf7c82e.bindPopup(popup_84e6c530b7c0b3161cdd5c4d0fe12e95)
+        ;
+
+        
+    
+    
+                marker_1ace8096d3f562468bf29c813bf7c82e.setIcon(icon_4d61985445dc6d7425582ec3d189defe);
+            
+    
+            var marker_ab6fe47a171a61ea9125a091ef22dc46 = L.marker(
+                [59.33360087523267, 18.90035882653138],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_4012914d072d4afbfaa84c37445e6e8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e08182a393f4fc1be01d66af31c6a95 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8f7d29a2e5382ebc8163e709c0e3cd62 = $(`<div id="html_8f7d29a2e5382ebc8163e709c0e3cd62" style="width: 100.0%; height: 100.0%;"><b>Bergklobben</b><br>Lat: 59.33360087523267, Lon: 18.90035882653138<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_4e08182a393f4fc1be01d66af31c6a95.setContent(html_8f7d29a2e5382ebc8163e709c0e3cd62);
+            
+        
+
+        marker_ab6fe47a171a61ea9125a091ef22dc46.bindPopup(popup_4e08182a393f4fc1be01d66af31c6a95)
+        ;
+
+        
+    
+    
+                marker_ab6fe47a171a61ea9125a091ef22dc46.setIcon(icon_4012914d072d4afbfaa84c37445e6e8c);
+            
+    
+            var marker_92acc257f38fd2b091e1dfb2f1a974ae = L.marker(
+                [59.32059822676579, 18.406638163992387],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_ac44407fbefb4e91d1caafb815096ce4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb4bf27b5816d73682f94090b4f10b41 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e86f19c2ae212bc775a3a477ee2c9f8a = $(`<div id="html_e86f19c2ae212bc775a3a477ee2c9f8a" style="width: 100.0%; height: 100.0%;"><b>Rödhakevägen</b><br>Lat: 59.32059822676579, Lon: 18.406638163992387<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_eb4bf27b5816d73682f94090b4f10b41.setContent(html_e86f19c2ae212bc775a3a477ee2c9f8a);
+            
+        
+
+        marker_92acc257f38fd2b091e1dfb2f1a974ae.bindPopup(popup_eb4bf27b5816d73682f94090b4f10b41)
+        ;
+
+        
+    
+    
+                marker_92acc257f38fd2b091e1dfb2f1a974ae.setIcon(icon_ac44407fbefb4e91d1caafb815096ce4);
+            
+    
+            var marker_cc352d83827d861014c5e8d056333920 = L.marker(
+                [59.39315282265744, 18.471178212621925],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_2998e46c35611c7ee52eb871d0752bee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ac8cda50ef11d975048767975687dd1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27ec24427c3203dc6501ccdb5e1277e1 = $(`<div id="html_27ec24427c3203dc6501ccdb5e1277e1" style="width: 100.0%; height: 100.0%;"><b>Skog ost Myttinge</b><br>Lat: 59.39315282265744, Lon: 18.471178212621925<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_7ac8cda50ef11d975048767975687dd1.setContent(html_27ec24427c3203dc6501ccdb5e1277e1);
+            
+        
+
+        marker_cc352d83827d861014c5e8d056333920.bindPopup(popup_7ac8cda50ef11d975048767975687dd1)
+        ;
+
+        
+    
+    
+                marker_cc352d83827d861014c5e8d056333920.setIcon(icon_2998e46c35611c7ee52eb871d0752bee);
+            
+    
+            var marker_4a5d5b848367639708a95dda14de89ab = L.marker(
+                [59.339057665033906, 18.935021043676112],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_fa9f1abf5209083dcecd8b2d545d12ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_060b712c876a20d06b1a2483095c5470 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc796dd1ece69093f15636def898cd15 = $(`<div id="html_bc796dd1ece69093f15636def898cd15" style="width: 100.0%; height: 100.0%;"><b>Älgerören</b><br>Lat: 59.339057665033906, Lon: 18.935021043676112<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_060b712c876a20d06b1a2483095c5470.setContent(html_bc796dd1ece69093f15636def898cd15);
+            
+        
+
+        marker_4a5d5b848367639708a95dda14de89ab.bindPopup(popup_060b712c876a20d06b1a2483095c5470)
+        ;
+
+        
+    
+    
+                marker_4a5d5b848367639708a95dda14de89ab.setIcon(icon_fa9f1abf5209083dcecd8b2d545d12ad);
+            
+    
+            var marker_902e7aeeac2ea62abce1518f98ed0372 = L.marker(
+                [59.257817108415004, 18.7701270221091],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_7af10348abdef508ed6bef942ee5bb00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef0652fbfe9b235e6a9cd882bedb9bd3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8453d4d291075d04b9bb783b42f8ebe9 = $(`<div id="html_8453d4d291075d04b9bb783b42f8ebe9" style="width: 100.0%; height: 100.0%;"><b>Söderby, Runmarö</b><br>Lat: 59.257817108415004, Lon: 18.7701270221091<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_ef0652fbfe9b235e6a9cd882bedb9bd3.setContent(html_8453d4d291075d04b9bb783b42f8ebe9);
+            
+        
+
+        marker_902e7aeeac2ea62abce1518f98ed0372.bindPopup(popup_ef0652fbfe9b235e6a9cd882bedb9bd3)
+        ;
+
+        
+    
+    
+                marker_902e7aeeac2ea62abce1518f98ed0372.setIcon(icon_7af10348abdef508ed6bef942ee5bb00);
+            
+    
+            var marker_9569e7a974f78a77ec345b4474c6b54b = L.marker(
+                [59.35741622254094, 18.564049116606082],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_32136bf1b68529871a4e38c488f37f71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a83678212c04f7fa9e2edfc0f9f373c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2bed94f3c1858e7bf57bf0c34019fe6 = $(`<div id="html_f2bed94f3c1858e7bf57bf0c34019fe6" style="width: 100.0%; height: 100.0%;"><b>Storsved N om vägen Ängsvik-Boda</b><br>Lat: 59.35741622254094, Lon: 18.564049116606082<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_a83678212c04f7fa9e2edfc0f9f373c6.setContent(html_f2bed94f3c1858e7bf57bf0c34019fe6);
+            
+        
+
+        marker_9569e7a974f78a77ec345b4474c6b54b.bindPopup(popup_a83678212c04f7fa9e2edfc0f9f373c6)
+        ;
+
+        
+    
+    
+                marker_9569e7a974f78a77ec345b4474c6b54b.setIcon(icon_32136bf1b68529871a4e38c488f37f71);
+            
+    
+            var marker_1db416fe0f0ba5021ee168831597a6ab = L.marker(
+                [59.260054959099264, 18.75150158799896],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_b0f9c2f62ec6e42c4d3b21d87b5e619c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2847f32a5ba727b05a3e2285adaa35df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e656e2914098697f8c5713f6dd2c850 = $(`<div id="html_2e656e2914098697f8c5713f6dd2c850" style="width: 100.0%; height: 100.0%;"><b>Solberga 1:55</b><br>Lat: 59.260054959099264, Lon: 18.75150158799896<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_2847f32a5ba727b05a3e2285adaa35df.setContent(html_2e656e2914098697f8c5713f6dd2c850);
+            
+        
+
+        marker_1db416fe0f0ba5021ee168831597a6ab.bindPopup(popup_2847f32a5ba727b05a3e2285adaa35df)
+        ;
+
+        
+    
+    
+                marker_1db416fe0f0ba5021ee168831597a6ab.setIcon(icon_b0f9c2f62ec6e42c4d3b21d87b5e619c);
+            
+    
+            var marker_9b92af3796a8a46777ac2a27e647e85e = L.marker(
+                [59.3078018339116, 18.483965688139378],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_bfb76e72d8a86199021e5c00585a64be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80b2e43d8207c2df61ece2a74e867260 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8714d454cdd5fe85c77d9fe054374c9b = $(`<div id="html_8714d454cdd5fe85c77d9fe054374c9b" style="width: 100.0%; height: 100.0%;"><b>Skog norr Skeppdalsström</b><br>Lat: 59.3078018339116, Lon: 18.483965688139378<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_80b2e43d8207c2df61ece2a74e867260.setContent(html_8714d454cdd5fe85c77d9fe054374c9b);
+            
+        
+
+        marker_9b92af3796a8a46777ac2a27e647e85e.bindPopup(popup_80b2e43d8207c2df61ece2a74e867260)
+        ;
+
+        
+    
+    
+                marker_9b92af3796a8a46777ac2a27e647e85e.setIcon(icon_bfb76e72d8a86199021e5c00585a64be);
+            
+    
+            var marker_5ec7bd3264da274ef2ef440bd3087b37 = L.marker(
+                [59.337154299672925, 18.897880754218797],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_2d5601e379242f2348658c8f7eb11170 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0414a1c7117473232a708f65e215aa56 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_67526f01826ce57b6d313346ff72967f = $(`<div id="html_67526f01826ce57b6d313346ff72967f" style="width: 100.0%; height: 100.0%;"><b>Harö by 2:104</b><br>Lat: 59.337154299672925, Lon: 18.897880754218797<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_0414a1c7117473232a708f65e215aa56.setContent(html_67526f01826ce57b6d313346ff72967f);
+            
+        
+
+        marker_5ec7bd3264da274ef2ef440bd3087b37.bindPopup(popup_0414a1c7117473232a708f65e215aa56)
+        ;
+
+        
+    
+    
+                marker_5ec7bd3264da274ef2ef440bd3087b37.setIcon(icon_2d5601e379242f2348658c8f7eb11170);
+            
+    
+            var marker_83353faf077cbab57fb469c483b79ca6 = L.marker(
+                [59.33011900293025, 18.877580024388195],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_d3eee9d77f36994b9fbffb503255d5c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6a5a24e954acfdb163a0de77f1de128 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a56789bef74628ae4db929e001dde8f2 = $(`<div id="html_a56789bef74628ae4db929e001dde8f2" style="width: 100.0%; height: 100.0%;"><b>Näsängen</b><br>Lat: 59.33011900293025, Lon: 18.877580024388195<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_d6a5a24e954acfdb163a0de77f1de128.setContent(html_a56789bef74628ae4db929e001dde8f2);
+            
+        
+
+        marker_83353faf077cbab57fb469c483b79ca6.bindPopup(popup_d6a5a24e954acfdb163a0de77f1de128)
+        ;
+
+        
+    
+    
+                marker_83353faf077cbab57fb469c483b79ca6.setIcon(icon_d3eee9d77f36994b9fbffb503255d5c9);
+            
+    
+            var marker_8bf64b0da5354806d2fe52ea67a1c08e = L.marker(
+                [59.33389227604963, 18.899934783483143],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_036953ca88cca92e3df1db582b7f1a24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c15d1cc99d3311dc5c44efcd1c41c605 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08d21f9ac22652d727b9f83d85247533 = $(`<div id="html_08d21f9ac22652d727b9f83d85247533" style="width: 100.0%; height: 100.0%;"><b>Bergklobben</b><br>Lat: 59.33389227604963, Lon: 18.899934783483143<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_c15d1cc99d3311dc5c44efcd1c41c605.setContent(html_08d21f9ac22652d727b9f83d85247533);
+            
+        
+
+        marker_8bf64b0da5354806d2fe52ea67a1c08e.bindPopup(popup_c15d1cc99d3311dc5c44efcd1c41c605)
+        ;
+
+        
+    
+    
+                marker_8bf64b0da5354806d2fe52ea67a1c08e.setIcon(icon_036953ca88cca92e3df1db582b7f1a24);
+            
+    
+            var marker_81bd0a103ecd38890e4ef1b0eef8bd67 = L.marker(
+                [59.31219331353662, 18.40497030293681],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_ddbf7cb938eedbebb58cf916e765dcf1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e278fdf7878f2cb7c3d42be23574abe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd14382843edbfd39f51831f3c37944d = $(`<div id="html_dd14382843edbfd39f51831f3c37944d" style="width: 100.0%; height: 100.0%;"><b>Knuts Hav</b><br>Lat: 59.31219331353662, Lon: 18.40497030293681<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_7e278fdf7878f2cb7c3d42be23574abe.setContent(html_dd14382843edbfd39f51831f3c37944d);
+            
+        
+
+        marker_81bd0a103ecd38890e4ef1b0eef8bd67.bindPopup(popup_7e278fdf7878f2cb7c3d42be23574abe)
+        ;
+
+        
+    
+    
+                marker_81bd0a103ecd38890e4ef1b0eef8bd67.setIcon(icon_ddbf7cb938eedbebb58cf916e765dcf1);
+            
+    
+            var marker_32b9f71163c492c41fccba6e41fdb669 = L.marker(
+                [59.37681096786217, 18.533111408061288],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_9accc8671d60cb0e706ef4a80ac56cec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef5c87e6c2820befabdcb5f78de55d25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff43c9179e0dad9ae4f4945ff16c74a1 = $(`<div id="html_ff43c9179e0dad9ae4f4945ff16c74a1" style="width: 100.0%; height: 100.0%;"><b>Siggesta NO</b><br>Lat: 59.37681096786217, Lon: 18.533111408061288<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_ef5c87e6c2820befabdcb5f78de55d25.setContent(html_ff43c9179e0dad9ae4f4945ff16c74a1);
+            
+        
+
+        marker_32b9f71163c492c41fccba6e41fdb669.bindPopup(popup_ef5c87e6c2820befabdcb5f78de55d25)
+        ;
+
+        
+    
+    
+                marker_32b9f71163c492c41fccba6e41fdb669.setIcon(icon_9accc8671d60cb0e706ef4a80ac56cec);
+            
+    
+            var marker_931e09d847dd9a4851016ab343ba2718 = L.marker(
+                [59.39309904096035, 18.471172707539164],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_29f35c7516cef3c72a78b9f0d4d75f48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d72163ef2290c8f3da308d186356714e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9df18a90e1f47fef3fd1263af3158526 = $(`<div id="html_9df18a90e1f47fef3fd1263af3158526" style="width: 100.0%; height: 100.0%;"><b>Skog ost Myttinge</b><br>Lat: 59.39309904096035, Lon: 18.471172707539164<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_d72163ef2290c8f3da308d186356714e.setContent(html_9df18a90e1f47fef3fd1263af3158526);
+            
+        
+
+        marker_931e09d847dd9a4851016ab343ba2718.bindPopup(popup_d72163ef2290c8f3da308d186356714e)
+        ;
+
+        
+    
+    
+                marker_931e09d847dd9a4851016ab343ba2718.setIcon(icon_29f35c7516cef3c72a78b9f0d4d75f48);
+            
+    
+            var marker_fbe02b403600e80dda7501d0a5073820 = L.marker(
+                [59.322953751411056, 18.608114942324917],
+                {
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var icon_aa08bf28a79f24616fd6723fb8ac8182 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_686b9bde42cce9e8d8cdedf000aca905 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93cea98adb6dcf9bb5fb19875b51a97b = $(`<div id="html_93cea98adb6dcf9bb5fb19875b51a97b" style="width: 100.0%; height: 100.0%;"><b>Värmdö, Skärmarö N.R.</b><br>Lat: 59.322953751411056, Lon: 18.608114942324917<br><a href="https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif" target="_blank">Öppna fyndinformation</a></div>`)[0];
+                popup_686b9bde42cce9e8d8cdedf000aca905.setContent(html_93cea98adb6dcf9bb5fb19875b51a97b);
+            
+        
+
+        marker_fbe02b403600e80dda7501d0a5073820.bindPopup(popup_686b9bde42cce9e8d8cdedf000aca905)
+        ;
+
+        
+    
+    
+                marker_fbe02b403600e80dda7501d0a5073820.setIcon(icon_aa08bf28a79f24616fd6723fb8ac8182);
+            
+    
+            map_9b871707da887f5e2efa1592ced19408.fitBounds(
+                [[59.33448674120276, 18.71296644355328], [59.37037439674164, 18.653733380850387], [59.27553446446774, 18.420289622223237], [59.279446048716146, 18.57531402885773], [59.31764121872071, 18.596103832196196], [59.40154831735509, 18.66876332090172], [59.24990497431217, 18.463589754957194], [59.33288867348325, 18.382345895049838], [59.31315041277665, 18.414067267608694], [59.24990497431217, 18.463589754957194], [59.32292047888138, 18.68312261795298], [59.32239807258503, 18.873603601573645], [59.33574678084864, 18.899250202559607], [59.23016056213514, 18.560608540007838], [59.2515333074747, 18.529372323018663], [59.35741622254094, 18.564049116606082], [59.32747331819609, 18.88158830237119], [59.25295287502663, 18.424535420304856], [59.39309904096035, 18.471172707539164], [59.32149626543304, 18.877018675723217], [59.33606735527476, 18.90085311593956], [59.41066246164258, 18.56476377738817], [59.33360087523267, 18.90035882653138], [59.32059822676579, 18.406638163992387], [59.39315282265744, 18.471178212621925], [59.339057665033906, 18.935021043676112], [59.257817108415004, 18.7701270221091], [59.35741622254094, 18.564049116606082], [59.260054959099264, 18.75150158799896], [59.3078018339116, 18.483965688139378], [59.337154299672925, 18.897880754218797], [59.33011900293025, 18.877580024388195], [59.33389227604963, 18.899934783483143], [59.31219331353662, 18.40497030293681], [59.37681096786217, 18.533111408061288], [59.39309904096035, 18.471172707539164], [59.322953751411056, 18.608114942324917]],
+                {}
+            );
+        
+    
+            var tile_layer_38caf782cdaa534d29ff1041402ea297 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e \u0026mdash; Map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_38caf782cdaa534d29ff1041402ea297.addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var tile_layer_e8c1064c955f960fbf23adec5a983ce7 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e \u0026mdash; Map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e8c1064c955f960fbf23adec5a983ce7.addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var tile_layer_d15b884ab8636bb4a894aed8f7ca8ed6 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {
+  "minZoom": 1,
+  "maxZoom": 16,
+  "maxNativeZoom": 16,
+  "noWrap": false,
+  "attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e \u0026mdash; Map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d15b884ab8636bb4a894aed8f7ca8ed6.addTo(map_9b871707da887f5e2efa1592ced19408);
+        
+    
+            var layer_control_fa5de3af6c9cf562a679a9f985aa1c90_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_fda3dedb02b78a4393ff6d9fd43a19b6,
+                    "stamenterrain" : tile_layer_38caf782cdaa534d29ff1041402ea297,
+                    "stamentoner" : tile_layer_e8c1064c955f960fbf23adec5a983ce7,
+                    "stamenwatercolor" : tile_layer_d15b884ab8636bb4a894aed8f7ca8ed6,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_fa5de3af6c9cf562a679a9f985aa1c90 = L.control.layers(
+                layer_control_fa5de3af6c9cf562a679a9f985aa1c90_layers.base_layers,
+                layer_control_fa5de3af6c9cf562a679a9f985aa1c90_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_9b871707da887f5e2efa1592ced19408);
+
+        
+</script>
+</html>
